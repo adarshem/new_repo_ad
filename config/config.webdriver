@@ -1,0 +1,15 @@
+###########################################
+# Selenium Grid Server settings
+###########################################
+#gridURL=http://10.0.0.53:4444/wd/hub
+
+
+###########################################
+# webDriver settings
+###########################################
+webDriverTimeout=1
+
+webDriverType=Firefox
+#webDriverType=IE
+#webDriverType=Chrome
+#webDriverType=PhantomJS

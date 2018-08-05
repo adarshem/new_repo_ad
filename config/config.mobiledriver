@@ -1,0 +1,101 @@
+###########################################
+# Default driver type
+###########################################
+#deviceType: iPhone; iPad; android; webapp
+deviceType=a
+
+iosDeviceName=a
+#iosDeviceName=iPad Simulator
+
+###########################################
+#
+# Web Driver settings for webApp
+#
+###########################################
+webappUrl=http://devwebapp.quickmobile-dev4.com
+#webappUrl=https://webapp.quickmobile-qa1.com
+
+### webApp Login Info ###
+webAppUserName=test
+webAppPassword=1234
+
+###########################################
+# Appium Server settings
+###########################################
+appiumURL=a
+appiumDriverTimeout=2
+scriptTimeout=3
+webAppScriptTimeout=40
+explicitWaitLimit=6
+###########################################
+#
+# Android Driver settings
+#
+###########################################
+##### App location ####
+#androidAppLocation=/testBuilds/MobileUI20_DoNotTouch_UI2.X.apk
+#androidAppLocation=/testBuilds/Mobile_SingleProj_DoNotTouch.apk
+#androidAppLocation=//testBuilds//AutomationTest.apk
+androidAppLocation=//testBuilds//MultiAppForAutomation.apk
+##### App Info ####
+#ci4
+#androidAppPackage=com.quickmobile.app428
+#Staging
+#androidAppPackage=com.quickmobile.app489
+#qa1
+#androidAppPackage=com.quickmobile.app739
+#mobileUI2.X
+#androidAppPackage=com.quickmobile.conference13
+#androidActivity=com.quickmobile.conference.ApplicationInitialLoadActivity
+#SmokeTestSingleEventApp
+#androidAppPackage=com.quickmobile.app8479
+#androidActivity=com.quickmobile.conference.ApplicationInitialLoadActivity
+#smokeTestMultiEventApp
+androidAppPackage=com.quickmobile.app12424
+androidActivity=com.quickmobile.conference.ApplicationInitialLoadActivity
+##### Device Info ####
+androidPlatformVersion=5.1.1
+androidDeviceName=Nexus
+
+
+###########################################
+# 
+# iOS Driver settings
+#
+###########################################
+##### App Info ####
+iosBundleID=com.quickmobile.app12424
+
+################################ 
+## for simulator
+################################
+##### App location ####
+#iosAppLocation=/testBuilds/iPad.app
+################################
+## for real device
+################################
+##### App location ####
+iosAppLocation=/testBuilds/33WITSMulti
+iosAppLocation=/testBuilds/MultiAppForFeatureTest.ipa
+#iosAppLocation=/testBuilds/MobileUI20_DoNotTouch_UI2.X.app
+#iosAppLocation=/testBuilds/Mobile_SingleProj_DoNotTouch.app
+#iosAppLocation=/testBuilds/Mobile_SingleProj_DoNotTouch_2.6_QA1.app
+##for mobile smoke test
+#iosAppLocation=/testBuilds/Mobile_Smoke_SingleProj_DoNotTouch.app
+
+##### Simulator Info ####
+#iosAppLocation=/testBuilds/33WITSMulti-resigned
+##### iPhone Device Info ####
+iosPlatformVersion=a
+udid=a
+
+##### iPad Device Info ####
+#iosPlatformVersion=10.0
+#iosDeviceName=iPad 3
+#udid=baa4377bfee1cc54d8193e4c13cdd0a57af3819f
+
+##### QP Project Details #####
+multiProject=MultiApp_For_Automation
+quickEvent=quickEvent_For_Mobile_Automation
+singleEvent=AutomationTest
+executionOnRemoteServer = a
